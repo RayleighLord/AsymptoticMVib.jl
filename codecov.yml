@@ -1,0 +1,4 @@
+ignore:
+  - "src/deprecated.jl" # ignore folders and all its contents
+  - "src/plotting.jl"
+  - "ext/*"
