@@ -2,7 +2,7 @@ using AsymptoticMVib
 using TestItems: @testitem
 using TestItemRunner: @run_package_tests
 
-tags_to_run = let t = get(ENV, "SELECTED_TEST_SUITE", "default, aqua")
+tags_to_run = let t = get(ENV, "SELECTED_TEST_SUITE", "default,aqua")
     t = split(t, ",")
     t = map(Symbol, t)
     t
